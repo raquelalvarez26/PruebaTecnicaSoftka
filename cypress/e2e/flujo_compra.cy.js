@@ -42,7 +42,6 @@ describe('Ejercicio 1: Flujo de Compra Completo en DemoBlaze', () => {
     cy.get('#card').type('4555123456789012');
     cy.get('#month').type('12');
     cy.get('#year').type('2028');
-
     // 5. Finalizar la compra
     cy.get('button').contains('Purchase').click();
 
